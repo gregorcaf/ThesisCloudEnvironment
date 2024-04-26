@@ -1,1 +1,1 @@
-Python protobuf compiling command: protoc -I=. --python_out=. --grpc_python_out=. ./master.proto
+Python protobuf compiling command: python -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. master.proto
