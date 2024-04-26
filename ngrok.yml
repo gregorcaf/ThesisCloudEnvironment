@@ -1,0 +1,5 @@
+tunnels:
+  grpc:
+    proto: tcp
+    addr: 9090
+    inspect: false
